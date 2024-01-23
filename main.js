@@ -83,8 +83,9 @@ if (isAlive === false){
   
 function drawcard(){
   if (isAlive === true && hasBJ==false){
-  sumEl += getRandom()
-  cards.push(getRandom())
+  DrawnCard = getRandom()
+  sumEl += DrawnCard
+  cards.push(DrawnCard)
   renderGame()
   console.log("drawing a card " + cards)}
 }
