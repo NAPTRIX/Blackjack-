@@ -73,14 +73,15 @@ else if (sumEl === 21) {
 }
 else if (sumEl > 21) {
   isAlive=false
-  message = 'Gerara here 😂👉'}
+  message = 'Gerara here 😂👉'
+setTimeout(function() {
+    location.reload();
+}, 2000);
+}
   messageEl.innerText= message
 if (isAlive === false){
   losses += 1
   localStorage.setItem("losses",losses)
-setTimeout(function() {
-    location.reload();
-}, 2000);
 }
 }
   
