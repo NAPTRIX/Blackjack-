@@ -98,6 +98,6 @@ function renderWLs(){
    console.log(wins)
 }
 
-if ((losses/wins) > 20){
+if ((losses) > 40){
   document.getElementById("tip").innerText = "GET SOME HELP 💀"
 }
