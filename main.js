@@ -78,6 +78,9 @@ else if (sumEl > 21) {
 if (isAlive === false){
   losses += 1
   localStorage.setItem("losses",losses)
+setTimeout(function() {
+    location.reload();
+}, 2000);
 }
 }
   
